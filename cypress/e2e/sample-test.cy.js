@@ -1,6 +1,6 @@
 describe('Sample test', () => {
       it('check data', () => {
-          cy.visit('test_cypress.html')
+          cy.visit('/')
   
           cy.get('#input-email').type('dummy@email.com')
           cy.get('#select-role').select('管理者')

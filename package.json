@@ -4,13 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "docker-compose build",
+    "up": "docker-compose up --abort-on-container-exit --exit-code-from e2e"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Leon-Zhengyang/Cypress_practice.git"
   },
-  "keywords": [],
+  "keywords": [
+    "cypress",
+    "cypress-io",
+    "example",
+    "docker",
+    "docker-compose"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
